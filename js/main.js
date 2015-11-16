@@ -98,6 +98,10 @@ var config = {
 					config.instance.restore();
 					config.instance.deanimate();
 				}
+				
+				
+				config.instance.scrollTopCurrentData = config.instance.scrollTop();
+				
 				config.instance.scrollTopCurrentData = config.instance.scrollTop();
             }
         }
